@@ -65,6 +65,8 @@
                 </ul>
                 <ul class="current">
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">How to verify source</a>
+    <ul class="current">
+    </ul>
                     </li>
                 </ul>
       </div>
@@ -102,7 +104,8 @@
           <div role="main">
             <div class="section">
               
-                <p>There are a few ways we can check whether a PMLB dataframe (<code>pmlb_df</code>) agrees with its source (<code>source_df</code>), provided that we have checked their shapes (by printing <code>pmlb_df.shape</code> and <code>pmlb_df.shape</code>) and changed the column name of the dependent variable to <code>target</code>. For example, if the dependent variable in the source dataset is <code>class</code>, you can use <code>df_source = df_source.rename(columns={'class': 'target'})</code>.</p>
+                <h1 id="how-to-verify-source">How to verify source</h1>
+<p>There are a few ways we can check whether a PMLB dataframe (<code>pmlb_df</code>) agrees with its source (<code>source_df</code>), provided that we have checked their shapes (by printing <code>pmlb_df.shape</code> and <code>pmlb_df.shape</code>) and changed the column name of the dependent variable to <code>target</code>. For example, if the dependent variable in the source dataset is <code>class</code>, you can use <code>df_source = df_source.rename(columns={'class': 'target'})</code>.</p>
 <ul>
 <li>If the two dataframes are exactly the same, the following line of code does not return anything ✔️:</li>
 </ul>
