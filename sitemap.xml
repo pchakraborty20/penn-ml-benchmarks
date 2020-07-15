@@ -19,5 +19,9 @@
      <loc>http://epistasislab.github.io/penn-ml-benchmarks/how-to-verify-source/</loc>
      <lastmod>2020-07-15</lastmod>
      <changefreq>daily</changefreq>
+    </url><url>
+     <loc>http://epistasislab.github.io/penn-ml-benchmarks/dataset/</loc>
+     <lastmod>2020-07-15</lastmod>
+     <changefreq>daily</changefreq>
     </url>
 </urlset>
